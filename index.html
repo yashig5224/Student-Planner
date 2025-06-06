@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Planner</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <meta name="description" content="A simple student planner to manage tasks, calendar, and productivity." />
+</head>
+
+</head>
+<body>
+  <div class="logo-container">
+  <a href="#dashboard"><img src="logo.jpg" alt="Student Planner Logo" class="logo" /></a>
+</div>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <ul>
+      <li class="nav-item active" data-tab="dashboard"><i class="fas fa-home"></i> Dashboard</li>
+      <li class="nav-item" data-tab="calendar"><i class="fas fa-calendar-alt"></i> Calendar</li>
+      <li class="nav-item" data-tab="tasks"><i class="fas fa-tasks"></i> Tasks</li>
+    </ul>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="container">
+
+    <!-- Dashboard Section -->
+    <section id="dashboard" class="tab-content active">
+      <h1><i class="fas fa-home"></i> Dashboard</h1>
+      <p>Here's a quick glance at your productivity:</p>
+
+      <div class="dashboard-cards">
+        <div class="card" id="totalTasks">
+          <h2>Total Tasks</h2>
+          <p>0</p>
+        </div>
+        <div class="card" id="studyTasks">
+          <h2>📘 Study</h2>
+          <p>0</p>
+        </div>
+        <div class="card" id="assignmentTasks">
+          <h2>📝 Assignment</h2>
+          <p>0</p>
+        </div>
+        <div class="card" id="examTasks">
+          <h2>🧠 Exam</h2>
+          <p>0</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Calendar Section -->
+    <section id="calendar" class="tab-content">
+      <header>
+        <h1><i class="fas fa-calendar-alt"></i> Calendar</h1>
+        <div class="month-switch">
+          <button id="prevMonth">&#8592;</button>
+          <h2 id="monthYear"></h2>
+          <button id="nextMonth">&#8594;</button>
+        </div>
+      </header>
+      <div class="calendar" id="calendarGrid"></div>
+    </section>
+
+    <!-- Task Section -->
+    <section id="tasks" class="tab-content">
+      <h1><i class="fas fa-tasks"></i> Tasks</h1>
+      <form id="taskForm">
+        <input type="text" id="taskInput" placeholder="New task..." required />
+        <select id="categorySelect">
+          <option value="Study">📘 Study</option>
+          <option value="Assignment">📝 Assignment</option>
+          <option value="Exam">🧠 Exam</option>
+          <option value="Other">🔖 Other</option>
+        </select>
+        <button type="submit">Add</button>
+      </form>
+      <div id="allTasks"></div>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>
+      &copy; 2025 Yashi Gupta. Connect with me on 
+      <a href="https://www.linkedin.com/in/yashi-gupta-790709314/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a> and 
+      <a href="https://www.instagram.com/yashiiii5224?utm_source=qr" target="_blank" rel="noopener noreferrer" title="Instagram">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>.
+    </p>
+  </footer>
+
+
+  <!-- JavaScript -->
+  <script src="calendar.js"></script>
+</body>
+</html>
