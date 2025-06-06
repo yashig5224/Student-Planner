@@ -21,7 +21,7 @@
 - **Font Awesome** – modern icons
   
  ## 🧩 Folder Structure
-novels-nest/
+student planner/
 ├── index.html
 ├── style.css
 ├── script.js
@@ -35,15 +35,28 @@ novels-nest/
 ![SP2](https://github.com/user-attachments/assets/97b37037-a1bb-4bb8-9f1e-3736861d9f55)
 ![SP3](https://github.com/user-attachments/assets/4290c47f-00f9-45db-a598-0a4f35120132)
 
+## 🚧 Project Status  
+🟡 Currently in Progress
+### Upcoming Improvements:
+   Add calendar integration  
+   Improve task categorization  
+   Implement reminders and notifications  
+   UI enhancements for better usability  
+   Add user authentication and cloud sync
+
 ## 🚀 Getting Started
 
 To run the project locally:
 
 ```bash
-git clone https://github.com/yourusername/novels-nest.git
+git clone https://github.com/yourusername/student planner.git
 cd novels-nest
 open index.html
 Or simply drag index.html into your browser.
 
-##  💌 Contribution
-Feel free to fork the repo, suggest improvements, or create pull requests if you have vintage-themed ideas!
+## 💌 Contribution
+Feel free to fork the repo, suggest improvements, or create pull requests if you have creative ideas!
+
+Designed By
+Yashi Gupta
+Follow on GitHub: yashig5224   
