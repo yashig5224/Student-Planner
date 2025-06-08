@@ -5,29 +5,29 @@
 
 ## 🌟 Features
 
-- ✅ To-do list with task categories (Assignments, Exams, Notes)
-- 📅 Monthly calendar view with navigation
-- 🌓 Dark aesthetic with gold and grey highlights
-- 🎯 Smooth UI animations and iconography
-- 📱 Responsive design for desktop and mobile
+- ✅ To-do list with task categories (Assignments, Exams, Notes)<br>
+- 📅 Monthly calendar view with navigation<br>
+- 🌓 Dark aesthetic with gold and grey highlights<br>
+- 🎯 Smooth UI animations and iconography<br>
+- 📱 Responsive design for desktop and mobile<br>
 
 ---
 
 ## 🛠 Tech Stack
 
-- **HTML5** – structure and layout  
-- **CSS** – dark UI with gold/grey theme and animations  
-- **JavaScript** – dynamic interactions and calendar logic  
-- **Font Awesome** – modern icons
+- **HTML5** – structure and layout  <br>
+- **CSS** – dark UI with gold/grey theme and animations <br>  
+- **JavaScript** – dynamic interactions and calendar logic  <br>
+- **Font Awesome** – modern icons<br>
   
- ## 🧩 Folder Structure
-student planner/
-├── index.html
-├── style.css
-├── script.js
-├── images/
-│ └── logo.png
-├── README.md
+ ## 🧩 Folder Structure<br>
+student planner/<br>
+├── index.html<br>
+├── style.css<br>
+├── script.js<br>
+├── images/<br>
+│ └── logo.png<br>
+├── README.md<br>
 
 # Screenshots:
 ### 💻 Desktop View
@@ -36,23 +36,22 @@ student planner/
 ![SP3](https://github.com/user-attachments/assets/4290c47f-00f9-45db-a598-0a4f35120132)
 
 ## 🚧 Project Status  
-🟡 Currently in Progress
-### Upcoming Improvements:
-   Add calendar integration  
-   Improve task categorization  
-   Implement reminders and notifications  
-   UI enhancements for better usability  
-   Add user authentication and cloud sync
+🟡 Currently in Progress<br>
+### Upcoming Improvements:<br>
+   Add calendar integration  <br>
+   Improve task categorization  <br>
+   Implement reminders and notifications<br>  
+   UI enhancements for better usability  <br>
+   Add user authentication and cloud sync<br>
 
 ## 🚀 Getting Started
-
 To run the project locally:
-
 ```bash
 git clone https://github.com/yourusername/student planner.git
 cd novels-nest
 open index.html
 Or simply drag index.html into your browser.
+
 
 ## 💌 Contribution
 Feel free to fork the repo, suggest improvements, or create pull requests if you have creative ideas!
