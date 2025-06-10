@@ -3,24 +3,24 @@
 
 ---
 
-## 🌟 Features
+##  Features
 
-- ✅ To-do list with task categories (Assignments, Exams, Notes)<br>
-- 📅 Monthly calendar view with navigation<br>
-- 🌓 Dark aesthetic with gold and grey highlights<br>
-- 🎯 Smooth UI animations and iconography<br>
-- 📱 Responsive design for desktop and mobile<br>
+-  To-do list with task categories (Assignments, Exams, Notes)<br>
+-  Monthly calendar view with navigation<br>
+-  Dark aesthetic with gold and grey highlights<br>
+-  Smooth UI animations and iconography<br>
+-  Responsive design for desktop and mobile<br>
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **HTML5** – structure and layout  <br>
 - **CSS** – dark UI with gold/grey theme and animations <br>  
 - **JavaScript** – dynamic interactions and calendar logic  <br>
 - **Font Awesome** – modern icons<br>
   
- ## 🧩 Folder Structure<br>
+ ##  Folder Structure<br>
 student planner/<br>
 ├── index.html<br>
 ├── style.css<br>
@@ -30,13 +30,13 @@ student planner/<br>
 ├── README.md<br>
 
 # Screenshots:
-### 💻 Desktop View
+###  Desktop View
 ![SP1](https://github.com/user-attachments/assets/75244698-8259-4124-abdc-504020d457af)
 ![SP2](https://github.com/user-attachments/assets/97b37037-a1bb-4bb8-9f1e-3736861d9f55)
 ![SP3](https://github.com/user-attachments/assets/4290c47f-00f9-45db-a598-0a4f35120132)
 
-## 🚧 Project Status  
-🟡 Currently in Progress<br>
+##  Project Status  
+ Currently in Progress<br>
 ### Upcoming Improvements:<br>
    Add calendar integration  <br>
    Improve task categorization  <br>
@@ -44,7 +44,7 @@ student planner/<br>
    UI enhancements for better usability  <br>
    Add user authentication and cloud sync<br>
 
-## 🚀 Getting Started
+##  Getting Started
 To run the project locally:
 ```bash
 git clone https://github.com/yourusername/student planner.git
@@ -53,7 +53,7 @@ open index.html
 Or simply drag index.html into your browser.
 
 
-## 💌 Contribution
+##  Contribution
 Feel free to fork the repo, suggest improvements, or create pull requests if you have creative ideas!
 
 Designed By
