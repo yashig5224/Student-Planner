@@ -48,7 +48,7 @@ student planner/<br>
 To run the project locally:
 ```bash
 git clone https://github.com/yourusername/student planner.git
-cd novels-nest
+cd student planner
 open index.html
 Or simply drag index.html into your browser.
 
